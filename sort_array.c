@@ -15,11 +15,10 @@ void bubbleSort(int arr[], int n) {
 
 int main() {
     int n;
-    printf("Entrez la taille du tableau : ");
     scanf("%d", &n);
 
     int arr[n];
-    printf("Entrez les %d entiers : ", n);
+    
     for (int i = 0; i < n; i++) {
         scanf("%d", &arr[i]);
     }
