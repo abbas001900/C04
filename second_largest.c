@@ -3,14 +3,12 @@
 
 int main() {
     int n;
-    printf("Entrez le nombre d'éléments : ");
     scanf("%d", &n);
 
     int max = INT_MIN;
     int second_max = INT_MIN;
     int nombre;
 
-    printf("Entrez les %d nombres : ", n);
     for (int i = 0; i < n; i++) {
         scanf("%d", &nombre);
         
